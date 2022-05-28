@@ -53,13 +53,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "right": {
     "id": "368cf4549ca8515e",
