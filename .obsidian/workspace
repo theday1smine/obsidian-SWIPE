@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swipe/Note number 1.md",
+            "file": "home.md",
             "mode": "source",
             "source": false
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swipe/Note number 1.md",
+                "file": "home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swipe/Note number 1.md"
+                "file": "home.md"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swipe/Note number 1.md",
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,15 +146,15 @@
   },
   "active": "a9de87f491e6ebc9",
   "lastOpenFiles": [
+    "home.md",
     "Swipe/Note number 1.md",
+    "Obsidian Help/Attachments/Pasted image 4.png",
+    "Obsidian Help/Attachments/Pasted image 1.png",
+    "Obsidian Help/Attachments/Pasted image 20220302103400.png",
     "Untitled 1.md",
     "test folder/Obsidian Plugins.md",
     "test folder/image4__8_.png",
     "test folder/sssdsdsd.md",
-    "Obsidian Help/How to/Working with tags.md",
-    "Obsidian Help/Obsidian/Obsidian.md",
-    "Obsidian Help/How to/Format your notes.md",
-    "Obsidian Help/How to/Internal link.md",
-    "VSLs/Venus Factor VSL Audio.md"
+    "Obsidian Help/How to/Working with tags.md"
   ]
 }
