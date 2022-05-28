@@ -1,0 +1,10 @@
+{
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "autoConvertHtml": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Obsidian Help/Attachments",
+  "foldHeading": true,
+  "showLineNumber": false,
+  "legacyEditor": false
+}

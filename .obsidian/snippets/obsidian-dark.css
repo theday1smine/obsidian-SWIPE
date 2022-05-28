@@ -1,0 +1,362 @@
+/*************************
+**************************
+UI
+***************************
+***************************/
+[aria-label*="Preview"] {
+	background: hsla(0, 100%, 50%, .4);
+	box-shadow: -5px 0 0 0 #660306, 5px 0 0 0 #660306;
+}
+
+/*************************
+FILENAME HEADER
+***************************/
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type .view-header {
+	background: black;
+}
+
+.view-header-title-container {
+	border-right: 1px solid rgba(250, 250, 250, 0.2);
+}
+
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type.mod-active .view-header-title-container:after {
+	background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.6))
+}
+
+/*************************
+**************************
+TEXT EDITOR
+***************************
+***************************/
+
+
+/*************************
+MAIN CONTAINER
+***************************/
+.view-content {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.markdown-source-view,
+.markdown-preview-view {
+	width: 100%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 0px !Important;
+}
+
+.CodeMirror-sizer {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin: unset !important;
+}
+
+.cm-s-obsidian .CodeMirror-gutters {
+	padding-right: 0px;
+	left: -15px !important;
+}
+
+.cm-s-obsidian .CodeMirror-gutters {
+	padding-right: 0px;
+	left: 00px !important;
+	width: 60px !important;
+	z-index: 2;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px)
+}
+
+.CodeMirror-gutter.CodeMirror-foldgutter {
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(120, 120, 120, .1)
+}
+
+
+.cm-s-obsidian .CodeMirror-code {
+	padding-right: 0px;
+}
+
+.CodeMirror-lines {
+	padding-top: 22px
+}
+
+/*************************
+Page width
+***************************/
+.CodeMirror-sizer {
+	z-index: 2;
+}
+
+.CodeMirror-lines {
+	width: calc(500px + 5px);
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+
+.markdown-preview-sizer {
+	width: 500px;
+	padding-left: 5px;
+	padding-right: 5px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/*BOX SHADOW EXPERIMENTAL*/
+.CodeMirror-lines,
+.markdown-preview-sizer {
+	box-shadow: inset 0 0 0 1px green !important;
+}
+
+
+.markdown-preview-sizer > div {
+	left: 3px
+}
+
+::-webkit-scrollbar {
+	width: 5px
+}
+
+/*************************
+SYNTAX
+***************************/
+.CodeMirror-gutter-background {
+	width: 0px !important;
+}
+
+.CodeMirror-line {
+	position: relative;
+}
+
+.cm-formatting {
+	transition: .2s;
+	font-weight: 100 !important;
+}
+
+[role="presentation"] {
+	position: relative;
+}
+
+/*************************
+BOLD - FORMATTING
+***************************/
+strong,
+.cm-strong {
+	font-weight: 700 !important;
+}
+
+/********
+BOLD - Hide stupid asterisks
+*********/
+
+.cm-formatting.cm-strong {
+	display: none;
+	transition-delay: 1s;
+}
+
+
+
+/*************************
+ITALIC - FORMATTING
+***************************/
+
+/*************************
+HEADINGS - FORMATTING
+***************************/
+/*universal heading line height*/
+.cm-s-obsidian .HyperMD-header, .cm-s-obsidian .HyperMD-header * {
+	font-size: inherit !important;
+	line-height: inherit !important;
+}
+.cm-s-obsidian .HyperMD-header, [data-heading*="Heading"]{
+	line-height: 1.2em !important;
+}
+
+/*HEADING 1*/
+.cm-s-obsidian .HyperMD-header-1, h1 {
+	font-size:40px !important;
+	margin-top:20px !important;
+	margin-bottom:15px !important;
+}
+
+/*HEADING 2*/
+.cm-s-obsidian .HyperMD-header-2, h2 {
+	font-size:35px !important;
+	margin-top:20px !important;
+	margin-bottom:15px !important;
+}
+/*HEADING 3*/
+
+.cm-s-obsidian .HyperMD-header-3, h3 {
+	font-size:32px !important;
+	margin-top:20px !important;
+	margin-bottom:15px !important;
+}
+/*HEADING 4*/
+
+.cm-s-obsidian .HyperMD-header-4, h4 {
+	font-size:1.2em !important;
+	margin-top:20px !important;
+	margin-bottom:15px !important;
+}
+/*HEADING 5*/
+
+.cm-s-obsidian .HyperMD-header-5, h5 {
+	font-size:1.1em !important;
+	margin-top:20px !important;
+	margin-bottom:15px !important;
+}
+/*HEADING 6*/
+
+.cm-s-obsidian .HyperMD-header-6, h6 {
+	font-size:1em !important;
+	margin-top:20px !important;
+	margin-bottom:15px !important;
+	font-weight: 100 !important;
+}
+
+/*******
+ HIDE STUPID MARKUP
+ 
+.cm-formatting-header-1,
+.cm-formatting-header-2,
+.cm-formatting-header-3,
+.cm-formatting-header-4,
+.cm-formatting-header-5,
+.cm-formatting-header-6 {
+	position: absolute;
+	left:-20px;
+	color: rgb(150,150,150,.4) !Important;
+}
+.cm-formatting-header-1 {
+}
+*******/
+/*************************
+HEADINGS - FOLDING
+***************************/
+.CodeMirror-gutter-wrapper {
+	position: absolute;
+	z-index: 4;
+	border: none !important;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 50px;
+	height: 100%;
+	top: 0;
+	left: -50px !important;
+}
+
+.CodeMirror-gutter-elt {
+	left: unset !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100% !important;
+}
+
+.CodeMirror-foldgutter-open:after,
+.CodeMirror-foldgutter-folded:after {
+	font-size: 30px;
+}
+
+/*************************
+BLOCKQUOTES - FOLDING
+***************************/
+
+
+/*PREVIEW*/
+.markdown-preview-view blockquote {
+	padding: 10px 10px 10px 20px !important;
+	margin: 0px !important;
+	border: 0px !important;
+	border-left: 2px solid red !Important;
+	font-family: SOurce Serif Pro, serif;
+}
+
+/*EDIT*/
+.HyperMD-quote {
+	padding: 10px 10px 10px 20px !important;
+	text-indent:0px !important;
+
+}
+.cm-quote {
+	margin-left:60px !important;
+}
+.cm-formatting.cm-quote, .cm-formatting.cm-quote.cm-quote-1,  .cm-formatting.cm-quote.cm-quote-2, .cm-formatting.cm-quote.cm-quote-3, .cm-formatting.cm-quote.cm-quote-4, .cm-formatting.cm-quote.cm-quote-5{
+	width: 20px !important;
+	display: inline-block;
+	padding-left:0px !important;
+}
+
+/*******
+ HIDE STUPID MARKUP
+ *******/
+
+
+/*******
+ SHOW STUPID MARKUP ON ACTIVE
+ ******
+.CodeMirror-activeline .cm-formatting.cm-formatting-quote {
+	display: inline;
+}
+*/
+/*************************
+**************************
+**************************
+**************************
+**************************
+**************************
+COLORS 
+**************************
+**************************
+**************************
+**************************
+**************************
+**************************/
+
+/*************************
+BACKGROUND-COLOR
+***************************/
+.workspace-split.mod-root .view-content {
+	background: black;
+}
+
+
+/*************************
+BODY FONT - COLORS 
+***************************/
+.markdown-preview-view,
+.CodeMirror-lines {
+	color: #F0F0F0;
+	-webkit-font-smoothing: antialiased;
+	padding-top:30px !important;
+}
+
+.markdown-preview-view strong,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.cm-header {
+	color: #ffffff;
+	font-weight: 600 !important;
+	-webkit-font-smoothing:subpixel-antialiased;
+}
+
+
+/*************************
+CURSOR
+***************************/
+.CodeMirror-cursors .CodeMirror-cursor {
+	width: 2px;
+	background: #007AFF;
+	border: none;
+	border-radius: 1px/1px;
+}

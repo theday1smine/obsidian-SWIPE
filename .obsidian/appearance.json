@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 19,
+  "cssTheme": "California Coast",
+  "theme": "moonstone",
+  "translucency": false,
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "california-coast-mod",
+    "obsidian-smithers",
+    "flomo"
+  ]
+}

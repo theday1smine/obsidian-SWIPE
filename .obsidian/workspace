@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "1752735c131acfc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9de87f491e6ebc9",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6b9af1da310f16b",
+    "type": "split",
+    "children": [
+      {
+        "id": "92b359ff8a7e7667",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a33078f4bcd8fd7c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a9ea0801e9f09c48",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#example",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "972eaa0953a34861",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293,
+    "collapsed": true
+  },
+  "right": {
+    "id": "368cf4549ca8515e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab0f9d872e7d2c8b",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "1d4f7e26d77c6622",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "218aac9c6203461b",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "60c4507db94afa63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "91b4a4133a3acf27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f827723419a258a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5787255a9759abd6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 208,
+    "collapsed": true
+  },
+  "active": "a9de87f491e6ebc9",
+  "lastOpenFiles": [
+    "Untitled 1.md",
+    "test folder/Obsidian Plugins.md",
+    "test folder/image4__8_.png",
+    "test folder/sssdsdsd.md",
+    "Obsidian Help/How to/Working with tags.md",
+    "Obsidian Help/Obsidian/Obsidian.md",
+    "Obsidian Help/How to/Format your notes.md",
+    "Obsidian Help/How to/Internal link.md",
+    "VSLs/Venus Factor VSL Audio.md",
+    "CODE/Example Code Block.md"
+  ]
+}
