@@ -7,8 +7,12 @@
         "id": "a9de87f491e6ebc9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Swipe/Note number 1.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -92,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Swipe/Note number 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Swipe/Note number 1.md"
+              }
             }
           },
           {
@@ -111,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Swipe/Note number 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +146,7 @@
   },
   "active": "a9de87f491e6ebc9",
   "lastOpenFiles": [
+    "Swipe/Note number 1.md",
     "Untitled 1.md",
     "test folder/Obsidian Plugins.md",
     "test folder/image4__8_.png",
@@ -146,7 +155,6 @@
     "Obsidian Help/Obsidian/Obsidian.md",
     "Obsidian Help/How to/Format your notes.md",
     "Obsidian Help/How to/Internal link.md",
-    "VSLs/Venus Factor VSL Audio.md",
-    "CODE/Example Code Block.md"
+    "VSLs/Venus Factor VSL Audio.md"
   ]
 }
