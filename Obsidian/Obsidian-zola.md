@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/ObsidianMD/comments/u3irg6/a_free_simple_good_looking_alternative_to/
+- 

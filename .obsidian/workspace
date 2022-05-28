@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d69dece921dd25b9",
+        "id": "522d62c6dcecbcb9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home.md",
+            "file": "Obsidian/Obsidian-zola.md",
             "mode": "source",
             "source": false
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home.md",
+                "file": "Obsidian/Obsidian-zola.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "Obsidian/Obsidian-zola.md"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "Obsidian/Obsidian-zola.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,10 +144,10 @@
     "width": 208,
     "collapsed": true
   },
-  "active": "d69dece921dd25b9",
+  "active": "522d62c6dcecbcb9",
   "lastOpenFiles": [
+    "Obsidian/Obsidian-zola.md",
     "home.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Swipe/Note number 1.md",
     "Obsidian Help/Attachments/Pasted image 4.png",
