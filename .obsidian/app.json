@@ -6,5 +6,6 @@
   "attachmentFolderPath": "Obsidian Help/Attachments",
   "foldHeading": true,
   "showLineNumber": false,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "promptDelete": false
 }
